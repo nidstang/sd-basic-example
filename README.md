@@ -16,3 +16,5 @@ npm ci
 ```
 npm run build
 ```
+
+And then you can find your css variables to build/css
