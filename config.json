@@ -1,0 +1,14 @@
+{
+  "source": ["decisions/**/*.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "transforms": ["name/cti/kebab"],
+      "buildPath": "build/css/",
+      "files": [{
+        "destination": "variables.css",
+        "format": "css/variables"
+      }]
+    }
+  }
+}
